@@ -1,5 +1,5 @@
 import React from "react";
-import './Sidebar.js';
+import Sidebar from './Sidebar';
 
 import './App.css';
 
@@ -7,12 +7,11 @@ import './App.css';
 function App() {
   return (
     //BEM naming convention
-    <div className="App">
-      {/* <h1>Sidebar</h1> */}
+    <div className="app">  
     <div className="app__body">
-      {/* Sidebar */}
+      <Sidebar />
       {/* Chat */}
-    </div>
+      </div>
     </div>
   );
 }
